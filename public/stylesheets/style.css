@@ -1,0 +1,12 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.custom-nav {
+  margin-bottom: 20px;
+}

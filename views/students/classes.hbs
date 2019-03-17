@@ -1,0 +1,21 @@
+<h2>{{student.name}}'s Classes</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Class ID</th>
+            <th>Class Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each student.classes}}
+        <tr>
+            <td>{{class_id}}</td>
+            <td>{{class_title}}</td>
+            <td>
+                <a href="/classes/{{class_id}}/lessons">View Lessons</a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
